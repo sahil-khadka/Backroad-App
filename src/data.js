@@ -1,3 +1,8 @@
+import tour1 from "./images/tour-1.jpeg";
+import tour2 from "./images/tour-2.jpeg";
+import tour3 from "./images/tour-3.jpeg";
+import tour4 from "./images/tour-4.jpeg";
+
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
   { id: 2, href: "#about", text: "about" },
@@ -29,5 +34,52 @@ export const services = [
     icon: "fas fa-socks fa-fw",
     title: "amazing comfort",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.",
+  },
+];
+
+export const tours = [
+  {
+    id: 1,
+    img: tour1,
+    icon: "fas fa-map",
+    title: "Tibet Adventure",
+    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.",
+    date: "august 26th, 2025",
+    duration: "6 days",
+    price: "from $2100",
+    location: "china",
+  },
+  {
+    id: 2,
+    img: tour2,
+    icon: "fas fa-map",
+    title: "best of java",
+    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    date: "october 1th, 2025",
+    duration: "11 days",
+    price: "from $1400",
+    location: "indonesia",
+  },
+  {
+    id: 3,
+    img: tour3,
+    icon: "fas fa-map",
+    title: "explore hong kong",
+    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.",
+    date: "september 15th, 2020",
+    duration: "8 days",
+    price: "from $5000",
+    location: "hong kong",
+  },
+  {
+    id: 4,
+    img: tour4,
+    icon: "fas fa-map",
+    title: "kenya highlights",
+    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.",
+    date: "december 5th, 2019",
+    duration: "20 days",
+    price: "from $3300",
+    location: "kenya",
   },
 ];

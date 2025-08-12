@@ -8,14 +8,15 @@ const Services = () => {
 
       <div className="section-center services-center">
         {services.map((data) => {
+          const { id, icon, title, text } = data;
           return (
-            <article className="service" key={data.id}>
+            <article className="service" key={id}>
               <span className="service-icon">
-                <i className={data.icon}></i>
+                <i className={icon}></i>
               </span>
               <div className="service-info">
-                <h4 className="service-title">{data.title}</h4>
-                <p className="service-text">{data.text}</p>
+                <h4 className="service-title">{title}</h4>
+                <p className="service-text">{text}</p>
               </div>
             </article>
           );
