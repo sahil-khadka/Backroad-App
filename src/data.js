@@ -30,4 +30,10 @@ export const services = [
     title: "amazing comfort",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.",
   },
+  {
+    id: 4,
+    icon: "fas fa-socks fa-fw",
+    title: "amazing comfort",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.",
+  },
 ];
